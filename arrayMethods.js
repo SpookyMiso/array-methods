@@ -16,3 +16,42 @@ var monthNames = ['Jan', 'Feb', 'Mar', 'Apr'];
 var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
+
+// PUSH //
+
+var nameArray = [];
+nameArray.push("Jenn");
+nameArray.push("Lazariuk");
+genericNumberArray.push(6,7,8,9,10);
+
+// POP//
+
+var popResult = colors.pop();
+
+// REVERSE //
+
+scrambledWords.reverse();
+phoneNumber.reverse();
+
+// SHIFT //
+
+var newOrderQueue = orderQueue.shift();
+var nextOrder = newOrderQueue;
+
+// SORT //
+
+mixedNums.sort();
+mixedWords.sort();
+
+// SPLICE //
+
+var notFruit = fruitCollection.splice(1,3);
+gemBox.splice(5,2);
+gemBox.splice(6,4);
+
+
+
+
+
+
+
