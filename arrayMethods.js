@@ -56,15 +56,32 @@ brownOnly.splice(1,5,"brown", "brown", "brown");
 
 // UNSHIFT //
 
-orderedValues.unshift();
+var orderedValuesNewLength = orderedValues.unshift(1,2,3);
 
+// CONCAT //
 
+var randomThingsArray = genericNumberArray.concat(colors);
+var updatedOrders = orderQueue.concat({ takeOut: 'Burger'},{ takeOut: 'Hotdog'});
 
+// JOIN //
+var sentence = scrambledWords.join(' ');
+var myFruits = fruitCollection.join(' + ');
 
+// SLICE //
 
+var favoriteFriends = friends.slice(1, 3);
+var owesMoney = friends.slice(3, 6);
 
+// TO STRING //
 
+var monthNameString = monthNames.toString();
 
+// INDEX OF //
 
+var favoriteColor = colors.indexOf('Red', 1);
+var favoriteEvenNumber = mixedNums.indexOf(76, 6);
 
+// LAST INDEX OF //
 
+var lastNine = bulkNumbers.lastIndexOf(9);
+var lastFive = bulkNumbers.lastIndexOf(5);
